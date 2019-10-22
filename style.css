@@ -160,3 +160,8 @@ user agent stylesheet .social a:-webkit-any-link {
 .fab {
 	font-family: 'Font Awesome 5 Brands';
 }
+.iecseLogo {
+	margin: 0 auto;
+	height: 200px;
+	width: 300px;
+}
