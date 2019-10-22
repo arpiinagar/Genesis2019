@@ -146,6 +146,8 @@ user agent stylesheet div {
 	display: block;
 }
 .social a {
+	font-size: 2.3rem;
+	margin: 0.3rem;
 	text-decoration: none;
 	color: black;
 }
