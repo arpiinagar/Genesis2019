@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.section {
+    height: 100%;
+    width: 100vw;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar li {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.1em;
+    color: white;
+    transition: 0.3s;
+}
+
+.left-side
+{
+    margin-right: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#landing
+{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+}
+
+.heading
+{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.byiecse
+{
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
