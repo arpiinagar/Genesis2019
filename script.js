@@ -13,3 +13,15 @@ const links = document.querySelectorAll('.Navbar__Link');
 links.forEach(function(link) {
 	link.addEventListener('click', classToggle);
 });
+
+function myFunction() {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		document.getElementById('myP').classList.add('colorNav');
+	} else {
+		document.getElementById('myP').classList.remove('colorNav');
+	}
+}
+
+window.onscroll = function() {
+	myFunction();
+};

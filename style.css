@@ -4,24 +4,37 @@ body {
 	width: 100%;
 	margin: 0;
 }
+
+.Navbar__Link-brand {
+	font-size: 3rem;
+	font-family: 'Fascinate Inline', cursive;
+}
 .NavContainer {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 .Navbar {
-	background-color: #46acc2;
+	background-color: blue;
 	display: flex;
-	padding: 16px;
+	padding: 10px;
 	font-family: sans-serif;
 	color: white;
 }
+.colorNav {
+	background-color: #303133;
+}
 
 .Navbar__Link {
+	align-self: center;
+
 	padding-right: 8px;
 }
 
 .Navbar__Items {
+	font-size: 2rem;
+	font-family: 'Fascinate Inline', cursive;
+	font-family: 'Lobster', cursive;
 	display: flex;
 }
 
@@ -31,6 +44,8 @@ body {
 
 .Navbar__Link-toggle {
 	display: none;
+	font-size: 2rem;
+	margin-top: 1rem;
 	margin-right: 2rem;
 }
 
