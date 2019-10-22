@@ -1,0 +1,162 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+.NavContainer {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.Navbar {
+	background-color: #46acc2;
+	display: flex;
+	padding: 16px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.Navbar__Link {
+	padding-right: 8px;
+}
+
+.Navbar__Items {
+	display: flex;
+}
+
+.Navbar__Items--right {
+	margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+	display: none;
+	margin-right: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.Navbar__Items,
+	.Navbar {
+		flex-direction: column;
+	}
+
+	.Navbar__Items {
+		display: none;
+	}
+
+	.Navbar__Items--right {
+		margin-left: 0;
+	}
+
+	.Navbar__ToggleShow {
+		display: flex;
+	}
+
+	.Navbar__Link-toggle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	}
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+footer {
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+
+	background-color: white;
+}
+.container {
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container .muted {
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+	color: white;
+	text-align: center;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.fa-heart {
+	color: darkred !important;
+	animation: heartbeat 1s infinite;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-name: heartbeat;
+}
+.beat {
+	animation: beat 5s ease infinite;
+}
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+	5% {
+		transform: scale(1.25);
+	}
+	20% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1);
+	}
+	35% {
+		transform: scale(1.25);
+	}
+	50% {
+		transform: scale(1);
+	}
+	55% {
+		transform: scale(1.25);
+	}
+	70% {
+		transform: scale(1);
+	}
+}
+.made-with {
+	text-align: center;
+	font-size: 1.2rem;
+}
+.social {
+	font-size: 25px;
+	margin: 20px;
+}
+* {
+	box-sizing: border-box;
+}
+user agent stylesheet div {
+	display: block;
+}
+.social a {
+	text-decoration: none;
+	color: black;
+}
+* {
+	box-sizing: border-box;
+}
+user agent stylesheet .social a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.fab {
+	font-family: 'Font Awesome 5 Brands';
+}
