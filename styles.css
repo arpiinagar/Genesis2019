@@ -194,6 +194,7 @@ footer .fab {
 }
 .sponsorLogos {
 	display: grid;
+	width: 100%;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 }
@@ -212,6 +213,20 @@ footer .fab {
 @media only screen and (max-width: 768px) {
 	.sponsorLogos {
 		grid-template-columns: 1fr 1fr;
+	}
+	.sponsorContainer {
+		background: #f7f7f7;
+		padding: 1rem;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.sponsorLogos {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		flex-direction: column;
 	}
 	.sponsorContainer {
 		background: #f7f7f7;
@@ -262,7 +277,7 @@ body {
 	padding-left: 130px;
 }
 #About-id {
-	height: 100vh;
+	height: 100%;
 	/* width: 100vw;*/
 	display: flex;
 	flex-direction: column;
@@ -303,8 +318,8 @@ body {
 }
 
 .box1 {
-	width: 20vw;
-	height: 20vw;
+	width: 20%;
+	height: 20%;
 	background-color: #4c8bf5;
 	float: left;
 }
@@ -322,8 +337,8 @@ body {
 
 .box2 {
 	float: right;
-	width: 80vw;
-	height: 20vw;
+	width: 80%;
+	height: 20%;
 }
 
 .gmap_canvas {
@@ -335,15 +350,8 @@ body {
 @media only screen and (max-width: 1000px) {
 	#landing .heading {
 		text-align: center;
-		width: 100%;
-		font-size: 5em;
-	}
 
-	#landing .byiecse {
-		font-size: 1em;
-		width: 50%;
-		text-align: right;
-		color: white;
+		font-size: 5em;
 	}
 
 	#landing .iecse {
@@ -351,7 +359,7 @@ body {
 	}
 
 	#About-id {
-		height: 100vh;
+		height: 100%;
 	}
 
 	.about {
@@ -359,11 +367,10 @@ body {
 	}
 	.about-text {
 		font-size: 1em;
-		width: 100vw;
+
 		margin: 0px;
 	}
 	#demo {
 		font-size: 2.3em;
-		width: 100vw;
 	}
 }
