@@ -1,4 +1,6 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+*{
     box-sizing: border-box;
     margin: 0px;
 }
@@ -10,28 +12,31 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 .section {
-    height: 100%;
+    height: 100vh;
     width: 100vw;
     position: relative;
+    
 }
 
 .nav-bar {
+    width: 100%;
     display: flex;
     list-style: none;
     justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background-color: black;
 }
 
 .nav-bar li {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 1.1em;
     color: white;
-    transition: 0.3s;
 }
 
 .left-side
@@ -47,22 +52,137 @@ a {
 #landing
 {
     background-color: black;
-    width: 100vw;
-    height: 100%;
-}
-
-.heading
-{
-    font-size: 3em;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: white;
 }
 
-.byiecse
+#landing .heading
+{
+    text-align: center;
+    width: 80%;
+    font-size: 5em;
+}
+
+#landing .byiecse
 {
     font-size: 1em;
-    display: flex;
-    justify-content: center;
+    width: 10%;
+    text-align: right;
     color: white;
 }
+#landing .iecse
+{
+    padding-left: 130px;
+}
+#About-id
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.abt {
+    height: 40vw;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 2em; 
+}
+
+.about-text
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size:1.3em;
+    padding-top: 25px;
+    margin-right: 250px;
+    margin-left: 250px;
+    
+}
+
+#demo
+{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    font-weight:300;
+}
+
+.boxes
+{
+    font-size: 1.2em;
+    display: inline-block;
+}
+
+.box1
+{
+    width: 20vw;
+    height: 20vw;
+    background-color:#4c8bf5;
+    float: left;
+}
+.box1 .subhead
+{
+    padding-top: 20px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.box1 .cont
+{
+    padding-top: 10px;
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.box2
+{
+    float: right;
+    width: 80vw;
+    height: 20vw;
+    background-image: src('assets/boxbg.png');
+
+}
+
+@media only screen and (min-width: 600px) {
+  #landing .heading
+{
+    text-align: center;
+    width: 100%;
+    font-size: 8em;
+}
+
+#landing .byiecse
+{
+    font-size: 25px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+
+#landing .iecse
+{
+    align-items: right;
+}
+
+.about{
+    font-size: 60px;
+}
+/*
+.box1{
+    width: 100vw;
+}
+.box2{
+    width: 100vw;
+}
+*/
+}
+
