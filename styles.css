@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
 html,
 body {
 	height: 100%;
@@ -232,22 +238,132 @@ body {
 
 #landing {
 	background-color: black;
-	width: 100vw;
-
 	padding: 10rem 0;
-}
-
-.heading {
-	font-size: 3em;
-
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	color: white;
 }
 
-.byiecse {
+#landing .heading {
+	text-align: center;
+	width: 80%;
+	font-size: 5em;
+}
+
+#landing .byiecse {
 	font-size: 1em;
+	width: 10%;
+	text-align: right;
+	color: white;
+}
+#landing .iecse {
+	padding-left: 130px;
+}
+#About-id {
+	height: 100vh;
+	/* width: 100vw;*/
+	display: flex;
+	flex-direction: column;
+
+	padding-top: 10px;
+}
+
+.about {
 	display: flex;
 	justify-content: center;
-	color: white;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.about-text {
+	display: flex;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 1.3em;
+	padding-top: 25px;
+	margin-right: 250px;
+	margin-left: 250px;
+}
+
+#demo {
+	display: flex;
+	justify-content: center;
+	font-size: 4em;
+	font-weight: 700;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.boxes {
+	font-size: 1.2em;
+	display: inline-block;
+	background-image: url('./assets/NLH.jpg');
+}
+
+.box1 {
+	width: 20vw;
+	height: 20vw;
+	background-color: #4c8bf5;
+	float: left;
+}
+.box1 .subhead {
+	padding-top: 20px;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.box1 .cont {
+	padding-top: 10px;
+	font-size: 0.7em;
+	font-weight: 400;
+}
+
+.box2 {
+	float: right;
+	width: 80vw;
+	height: 20vw;
+}
+
+.gmap_canvas {
+	display: flex;
+	overflow: hidden;
+	background: none !important;
+	width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+	#landing .heading {
+		text-align: center;
+		width: 100%;
+		font-size: 5em;
+	}
+
+	#landing .byiecse {
+		font-size: 1em;
+		width: 50%;
+		text-align: right;
+		color: white;
+	}
+
+	#landing .iecse {
+		align-items: right;
+	}
+
+	#About-id {
+		height: 100vh;
+	}
+
+	.about {
+		font-size: 2em;
+	}
+	.about-text {
+		font-size: 1em;
+		width: 100vw;
+		margin: 0px;
+	}
+	#demo {
+		font-size: 2.3em;
+		width: 100vw;
+	}
 }
