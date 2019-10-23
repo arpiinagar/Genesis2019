@@ -201,7 +201,8 @@ footer .fab {
 .sponsorContainer p {
 	color: #6a6a6a;
 	font-size: 15px;
-	margin-bottom: 2rem;
+	margin: 1rem 0 2rem 0;
+
 	font-family: 'Libre Franklin', sans-serif;
 }
 .sponsorHeader {
