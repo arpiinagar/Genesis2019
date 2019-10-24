@@ -24,7 +24,7 @@ body {
 }
 .Navbar {
 	display: flex;
-	padding: 10px 3rem;
+	padding: 0 3rem;
 	font-family: sans-serif;
 	color: white;
 }
@@ -64,7 +64,9 @@ body {
 		flex-direction: column;
 		padding: 10px;
 	}
-
+	.Navbar {
+		background-color: black;
+	}
 	.Navbar__Items {
 		display: none;
 	}
@@ -374,4 +376,7 @@ body {
 	#demo {
 		font-size: 2.3em;
 	}
+}
+.anchor {
+	padding-top: 4rem !important;
 }
