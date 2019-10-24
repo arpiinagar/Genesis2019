@@ -189,7 +189,8 @@ footer .fab {
 }
 .sponsorContainer {
 	background: #f7f7f7;
-	padding: 4rem 17rem;
+    padding: 4rem 17rem;
+    clear: both;
 }
 .sponsorContent {
 	margin: 0 5rem;
@@ -387,7 +388,8 @@ body {
 .speaker-content {
 	font-size: 0.8em;
 	padding: 0px;
-	margin: 0px;
+    margin: 0px;
+    width:100%;
 }
 .ig-logo img {
 	max-width: 25px;
@@ -401,7 +403,6 @@ body {
 }
 .speakers-head {
 	text-align: center;
-	height: 25vh;
 	padding: 50px;
 	margin: 10 0 0;
 }
@@ -409,7 +410,6 @@ body {
 	font-size: 2em;
 	margin-bottom: 20px;
 }
-
 @media screen and (max-width: 747px) {
 	.speakers-head {
 		font-size: 0.9em;
@@ -475,7 +475,11 @@ body {
 	}
 	.w3-drop-3 {
 		display: block !important;
-	}
+    }
+    .more-info{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.514);
+    }
 }
 @media screen and (min-width: 748px) {
 	.speaker-sec {
