@@ -57,16 +57,16 @@ body {
 .Navbar .link {
 	margin-right: 16px;
 }
-
+.bg-dark {
+	background-color: #303133 !important;
+}
 @media only screen and (max-width: 768px) {
 	.Navbar__Items,
 	.Navbar {
 		flex-direction: column;
 		padding: 10px;
 	}
-	.Navbar {
-		background-color: black;
-	}
+
 	.Navbar__Items {
 		display: none;
 	}

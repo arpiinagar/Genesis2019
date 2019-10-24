@@ -1,18 +1,19 @@
+document
+	.querySelector('.Navbar__Link-toggle')
+	.addEventListener('click', classToggle);
+let Links = document.querySelectorAll('.Navbar__Link');
+Links.forEach(function(link) {
+	link.addEventListener('click', classToggle);
+});
 function classToggle() {
 	const navs = document.querySelectorAll('.Navbar__Items');
+	const navb = document.getElementsByClassName('Navbar')[0];
+	navb.classList.toggle('bg-dark');
 
 	navs.forEach(function(nav) {
 		nav.classList.toggle('Navbar__ToggleShow');
 	});
 }
-
-document
-	.querySelector('.Navbar__Link-toggle')
-	.addEventListener('click', classToggle);
-const links = document.querySelectorAll('.Navbar__Link');
-links.forEach(function(link) {
-	link.addEventListener('click', classToggle);
-});
 
 function myFunction() {
 	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
