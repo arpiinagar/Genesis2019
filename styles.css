@@ -189,8 +189,8 @@ footer .fab {
 }
 .sponsorContainer {
 	background: #f7f7f7;
-    padding: 4rem 17rem;
-    clear: both;
+	padding: 4rem 17rem;
+	clear: both;
 }
 .sponsorContent {
 	margin: 0 5rem;
@@ -383,13 +383,13 @@ body {
 }
 
 .speaker-sec {
-	width: 100vw;
+	width: 100%;
 }
 .speaker-content {
 	font-size: 0.8em;
 	padding: 0px;
-    margin: 0px;
-    width:100%;
+	margin: 0px;
+	width: 100%;
 }
 .ig-logo img {
 	max-width: 25px;
@@ -475,11 +475,11 @@ body {
 	}
 	.w3-drop-3 {
 		display: block !important;
-    }
-    .more-info{
-        text-align: center;
-        color: rgba(0, 0, 0, 0.514);
-    }
+	}
+	.more-info {
+		text-align: center;
+		color: rgba(0, 0, 0, 0.514);
+	}
 }
 @media screen and (min-width: 748px) {
 	.speaker-sec {

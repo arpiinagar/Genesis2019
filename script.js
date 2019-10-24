@@ -1,8 +1,8 @@
 document
 	.querySelector('.Navbar__Link-toggle')
 	.addEventListener('click', classToggle);
-let Links = document.querySelectorAll('.Navbar__Link');
-Links.forEach(function(link) {
+const NavLinks = document.querySelectorAll('.Navbar__Link');
+NavLinks.forEach(function(link) {
 	link.addEventListener('click', classToggle);
 });
 function classToggle() {
