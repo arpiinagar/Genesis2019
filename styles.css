@@ -368,9 +368,11 @@ body {
 
 	.about {
 		font-size: 2em;
+		padding: 0 3rem;
 	}
 	.about-text {
 		font-size: 1em;
+		padding: 0 3rem;
 
 		margin: 0px;
 	}
@@ -421,7 +423,7 @@ body {
 		font-size: 0.9em;
 	}
 	.speaker-1 img {
-		width: 100vw;
+		width: 100%;
 	}
 	.speaker-img-1 img {
 		max-height: 28vh;

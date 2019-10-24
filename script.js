@@ -1,10 +1,13 @@
 document
 	.querySelector('.Navbar__Link-toggle')
 	.addEventListener('click', classToggle);
-const NavLinks = document.querySelectorAll('.Navbar__Link');
-NavLinks.forEach(function(link) {
-	link.addEventListener('click', classToggle);
-});
+function navlinks() {
+	const NavLinks = document.querySelectorAll('.Navbar__Link');
+	NavLinks.forEach(function(link) {
+		link.addEventListener('click', classToggle);
+	});
+}
+
 function classToggle() {
 	const navs = document.querySelectorAll('.Navbar__Items');
 	const navb = document.getElementsByClassName('Navbar')[0];
